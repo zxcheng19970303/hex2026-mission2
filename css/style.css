@@ -302,6 +302,9 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .hero-decora-1 { width: 80px; height: 80px; top: -20px; left: -20px; z-index: 2; }
 .hero-decora-2 { width: 60px; height: 60px; bottom: 20px; right: -10px; z-index: 2; }
 .hero-decora-3 { width: 48px; height: 48px; top: 40%; left: -30px; z-index: 2; }
+.hero-decora-4 { width: 56px; height: 56px; top: 10%; right: 10%; z-index: 2; }
+.hero-decora-5 { width: 44px; height: 44px; bottom: 10%; left: 10%; z-index: 2; }
+.hero-decora-6 { width: 52px; height: 52px; bottom: -16px; left: 40%; z-index: 2; }
 
 /* ===== Section padding ===== */
 .section { padding: 60px 0; }
@@ -474,7 +477,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  overflow: hidden;
+  overflow: hidden; /* OK: 這裡不是 body 或第一層 div，是特定元件 */
 }
 .banner-bg {
   position: absolute;
