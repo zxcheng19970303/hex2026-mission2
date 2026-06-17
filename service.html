@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>服務項目 | Nelson</title>
+  <meta name="description" content="平面設計、網頁設計、前端切版、後端開發，提供完整數位解決方案。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">Nelson</a>
+    <ul class="navbar-links">
+      <li><a href="service.html">服務項目</a></li>
+      <li><a href="project.html">專案作品</a></li>
+      <li><a href="blog.html">部落格</a></li>
+      <li><a href="#contact"><span class="btn btn-primary" style="padding:8px 20px;font-size:13px;">與我聯絡</span></a></li>
+    </ul>
+    <button class="hamburger" aria-label="開啟選單" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" role="dialog" aria-label="行動導覽">
+  <a href="service.html">服務項目</a>
+  <a href="project.html">專案作品</a>
+  <a href="blog.html">部落格</a>
+  <a href="#contact" class="mobile-cta btn btn-primary">與我聯絡</a>
+</div>
+
+<!-- Banner -->
+<section class="banner page-top">
+  <img
+    src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/index/index_decora_4.webp"
+    alt="" class="banner-bg" aria-hidden="true" />
+  <div class="banner-overlay"></div>
+  <div class="banner-content">
+    <p class="banner-eyebrow">SERVICES</p>
+    <h1 class="banner-title">服務項目</h1>
+  </div>
+  <div class="banner-deco" aria-hidden="true">SERVICES</div>
+</section>
+
+<!-- Service Tabs -->
+<section class="section">
+  <div class="container">
+    <div data-aos="fade-up">
+      <div class="service-tabs">
+        <button class="service-tab active" data-service="graphic" aria-pressed="true">
+          <svg width="20" height="20" viewBox="0 0 40 40" fill="none"><path d="M12 28L20 12L28 28H12Z" fill="currentColor"/></svg>
+          平面設計
+        </button>
+        <button class="service-tab" data-service="website" aria-pressed="false">
+          <svg width="20" height="20" viewBox="0 0 40 40" fill="none"><rect x="8" y="12" width="24" height="16" rx="2" fill="currentColor"/></svg>
+          網頁設計
+        </button>
+        <button class="service-tab" data-service="frontend" aria-pressed="false">
+          <svg width="20" height="20" viewBox="0 0 40 40" fill="none"><path d="M14 16l-6 4 6 4M26 16l6 4-6 4" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+          前端切版
+        </button>
+        <button class="service-tab" data-service="backend" aria-pressed="false">
+          <svg width="20" height="20" viewBox="0 0 40 40" fill="none"><rect x="8" y="8" width="24" height="10" rx="2" fill="currentColor"/><rect x="8" y="22" width="24" height="10" rx="2" fill="currentColor"/></svg>
+          後端開發
+        </button>
+      </div>
+
+      <div class="service-grid">
+        <a href="service.html?service=graphic" class="service-card">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">GRAPHIC</p>
+              <h3 class="service-card-title">平面設計</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><path d="M12 28L20 12L28 28H12Z" fill="#24140B"/></svg>
+          </div>
+          <p class="service-card-desc">從品牌識別到視覺傳達，用專業設計精準傳遞核心價值</p>
+          <div class="service-card-footer"><span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+        </a>
+        <a href="service.html?service=website" class="service-card">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">WEBSITE</p>
+              <h3 class="service-card-title">網頁設計</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><rect x="8" y="12" width="24" height="16" rx="2" fill="#24140B"/></svg>
+          </div>
+          <p class="service-card-desc">美感易用並重，以 Figma 打造符合直覺的數位體驗</p>
+          <div class="service-card-footer"><span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+        </a>
+        <a href="service.html?service=frontend" class="service-card">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">FRONTEND</p>
+              <h3 class="service-card-title">前端切版</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><path d="M14 16l-6 4 6 4M26 16l6 4-6 4M22 13l-4 14" stroke="#24140B" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <p class="service-card-desc">精準轉譯設計稿細節，建構流暢穩定 RWD 響應式網頁</p>
+          <div class="service-card-footer"><span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+        </a>
+        <a href="service.html?service=backend" class="service-card">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">BACKEND</p>
+              <h3 class="service-card-title">後端開發</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><rect x="8" y="8" width="24" height="10" rx="2" fill="#24140B"/><rect x="8" y="22" width="24" height="10" rx="2" fill="#24140B"/><circle cx="12" cy="13" r="2" fill="#F5B87B"/><circle cx="12" cy="27" r="2" fill="#F5B87B"/></svg>
+          </div>
+          <p class="service-card-desc">佈署穩定系統架構，串接 API 並確保數據處理安全</p>
+          <div class="service-card-footer"><span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Process - Graphic -->
+<main>
+  <div class="service-process section-dark section active" data-service="graphic">
+    <div class="container">
+      <div class="process-layout" data-aos="fade-up">
+        <div class="process-title-area">
+          <p class="section-eyebrow">PROCESS</p>
+          <h2 class="section-title light">平面設計<br>服務流程</h2>
+          <p style="margin-top:16px;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.8;">從品牌識別到視覺傳達，用專業設計精準傳遞核心價值</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-step"><div class="step-num">01</div><div class="step-content"><p class="step-title">需求訪談與視覺定位</p><p class="step-desc">深度溝通品牌核心價值，確認目標受眾與視覺風格</p></div></div>
+          <div class="process-step"><div class="step-num">02</div><div class="step-content"><p class="step-title">概念發展與方案提案</p><p class="step-desc">將抽象概念具象化，提供多層次設計方案供選擇</p></div></div>
+          <div class="process-step"><div class="step-num">03</div><div class="step-content"><p class="step-title">匠心編排與細節校正</p><p class="step-desc">進行多輪微調優化排版與色彩，確保視覺一致性</p></div></div>
+          <div class="process-step"><div class="step-num">04</div><div class="step-content"><p class="step-title">專業檔案交付結案</p><p class="step-desc">提供完整原始碼與多種格式輸出，確保交付完整性</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-process section-dark" data-service="website">
+    <div class="container">
+      <div class="process-layout" data-aos="fade-up">
+        <div class="process-title-area">
+          <p class="section-eyebrow">PROCESS</p>
+          <h2 class="section-title light">網頁設計<br>服務流程</h2>
+          <p style="margin-top:16px;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.8;">美感易用並重，以 Figma 打造符合直覺的數位體驗</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-step"><div class="step-num">01</div><div class="step-content"><p class="step-title">架構訪談與體驗定位</p><p class="step-desc">確立網站目標受眾、使用情境與核心功能需求</p></div></div>
+          <div class="process-step"><div class="step-num">02</div><div class="step-content"><p class="step-title">版面規劃與視覺提案</p><p class="step-desc">以 Figma 設計 Wireframe 到高保真設計稿，呈現最終視覺</p></div></div>
+          <div class="process-step"><div class="step-num">03</div><div class="step-content"><p class="step-title">互動細節與響應校正</p><p class="step-desc">細化 hover 狀態、動畫過渡與 RWD 各裝置斷點調整</p></div></div>
+          <div class="process-step"><div class="step-num">04</div><div class="step-content"><p class="step-title">設計規格交付結案</p><p class="step-desc">輸出設計規格文件、切圖資源，確保開發順利接手</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-process section-dark" data-service="frontend">
+    <div class="container">
+      <div class="process-layout" data-aos="fade-up">
+        <div class="process-title-area">
+          <p class="section-eyebrow">PROCESS</p>
+          <h2 class="section-title light">前端切版<br>服務流程</h2>
+          <p style="margin-top:16px;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.8;">精準轉譯設計稿細節，建構流暢穩定 RWD 響應式網頁</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-step"><div class="step-num">01</div><div class="step-content"><p class="step-title">設計盤點與技術評估</p><p class="step-desc">分析設計稿複雜度，規劃技術棧與元件架構</p></div></div>
+          <div class="process-step"><div class="step-num">02</div><div class="step-content"><p class="step-title">元件拆分與版面建置</p><p class="step-desc">以語義化 HTML + CSS 建立可維護的元件結構</p></div></div>
+          <div class="process-step"><div class="step-num">03</div><div class="step-content"><p class="step-title">響應調整與互動校正</p><p class="step-desc">多裝置測試 RWD 斷點，確保各平台顯示一致</p></div></div>
+          <div class="process-step"><div class="step-num">04</div><div class="step-content"><p class="step-title">程式整理與交付結案</p><p class="step-desc">程式碼整理、跨瀏覽器測試後交付完整前端專案</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="service-process section-dark" data-service="backend">
+    <div class="container">
+      <div class="process-layout" data-aos="fade-up">
+        <div class="process-title-area">
+          <p class="section-eyebrow">PROCESS</p>
+          <h2 class="section-title light">後端開發<br>服務流程</h2>
+          <p style="margin-top:16px;font-size:14px;color:rgba(255,255,255,0.6);line-height:1.8;">佈署穩定系統架構，串接 API 並確保數據處理安全</p>
+        </div>
+        <div class="process-steps">
+          <div class="process-step"><div class="step-num">01</div><div class="step-content"><p class="step-title">需求釐清與資料規劃</p><p class="step-desc">梳理業務邏輯、資料庫結構與 API 接口設計</p></div></div>
+          <div class="process-step"><div class="step-num">02</div><div class="step-content"><p class="step-title">API 設計與系統建置</p><p class="step-desc">建立 RESTful API、資料庫及伺服器端核心功能</p></div></div>
+          <div class="process-step"><div class="step-num">03</div><div class="step-content"><p class="step-title">功能測試與安全校正</p><p class="step-desc">進行壓力測試、資安審查與 API 串接驗證</p></div></div>
+          <div class="process-step"><div class="step-num">04</div><div class="step-content"><p class="step-title">部署文件與交付結案</p><p class="step-desc">系統部署上線，提供完整技術文件與維護說明</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Client Cases -->
+<section class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-eyebrow">CASES</p>
+      <h2 class="section-title">客戶案例</h2>
+    </div>
+    <div class="case-grid">
+      <a href="project.html" class="case-card" data-aos="fade-up" data-aos-delay="0">
+        <img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/service/service_case_1.webp" alt="多肉植物電商案例" class="case-card-img" />
+        <div class="case-card-body">
+          <div class="case-card-meta">
+            <span class="tag">平面設計</span>
+            <span class="tag">網頁設計</span>
+            <time style="font-size:12px;color:var(--neutral-500);margin-left:auto;">Oct 16, 2025</time>
+          </div>
+          <h3 class="case-card-title">品牌視覺與電商整合，多肉植物品牌電商建置</h3>
+          <p class="case-card-desc">從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗</p>
+          <div class="case-card-footer">
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </div>
+      </a>
+      <a href="project.html" class="case-card" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/service/service_case_2.webp" alt="財務視覺化案例" class="case-card-img" />
+        <div class="case-card-body">
+          <div class="case-card-meta">
+            <span class="tag">平面設計</span>
+            <span class="tag">前端切版</span>
+            <time style="font-size:12px;color:var(--neutral-500);margin-left:auto;">Oct 16, 2025</time>
+          </div>
+          <h3 class="case-card-title">數位產品 UI/UX 設計，個人化財務視覺化軟體</h3>
+          <p class="case-card-desc">運用數據視覺化邏輯，將複雜的財務數據轉化為直覺的操作介面</p>
+          <div class="case-card-footer">
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section-light">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-eyebrow">FAQ</p>
+      <h2 class="section-title">常見問題</h2>
+    </div>
+    <div class="faq-list" data-aos="fade-up">
+      <details class="faq-item">
+        <summary>設計修改的次數有限制嗎？<span class="faq-icon">+</span></summary>
+        <p class="faq-answer">基本方案包含 3 次修改，每個階段的修改意見請盡量一次彙整提出，以確保設計進度順利推進。若需額外修改，可依實際需求討論加購方案。</p>
+      </details>
+      <details class="faq-item">
+        <summary>完成後會提供哪些格式的設計檔案？<span class="faq-icon">+</span></summary>
+        <p class="faq-answer">視專案類型提供 AI、PDF、PNG、SVG 等常用格式，Figma 設計稿也可依需求提供共享連結或匯出版本，確保檔案完整可用。</p>
+      </details>
+      <details class="faq-item" open>
+        <summary>如果我不懂設計，能清楚表達需求嗎？<span class="faq-icon">+</span></summary>
+        <p class="faq-answer">完全沒問題！我會在訪談階段透過引導式問答，協助您梳理品牌定位、風格偏好與目標受眾。不需要有設計背景，只需要告訴我您的想法，剩下的交給我來轉譯成視覺。</p>
+      </details>
+      <details class="faq-item" open>
+        <summary>整個專案大概需要多久時間？<span class="faq-icon">+</span></summary>
+        <p class="faq-answer">依專案規模而異，平面設計約 1–2 週，網頁設計與前端切版約 2–4 週，複雜系統開發則視需求另行評估。在正式啟動前會提供明確時程表，確保雙方對交付節點有共識。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-text" data-aos="fade-right">
+      <p class="section-eyebrow">CONTACT</p>
+      <h2 class="section-title light">與我聯絡</h2>
+      <div class="contact-email">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><rect x="3" y="5" width="14" height="11" rx="1" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/><path d="M3 6l9 6 9-6" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" stroke-linecap="round"/></svg>
+        service@hexschool.com
+      </div>
+      <div class="contact-socials">
+        <a href="#" class="social-link" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+        <a href="#" class="social-link" aria-label="Behance"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.938 4.503c.702 0 1.34.06 1.92.188.577.13 1.07.33 1.477.602.406.272.72.63.94 1.064.22.437.33.95.33 1.538 0 .658-.152 1.213-.456 1.656-.304.444-.734.808-1.29 1.092.764.222 1.33.608 1.7 1.157.37.548.556 1.195.556 1.938 0 .654-.13 1.22-.4 1.695-.27.475-.64.87-1.11 1.182-.47.314-1.01.54-1.62.68-.61.14-1.24.21-1.9.21H0V4.5h6.938v.003zM3.5 10.5h2.938c.6 0 1.09-.14 1.47-.42.38-.28.57-.69.57-1.23 0-.3-.055-.556-.165-.764-.11-.21-.26-.38-.45-.51-.19-.13-.414-.22-.67-.27-.255-.05-.526-.076-.814-.076H3.5v3.27zm0 5.78h3.15c.3 0 .584-.032.85-.097.267-.063.502-.163.703-.3.2-.135.36-.31.48-.52.12-.21.18-.47.18-.78 0-.626-.19-1.073-.57-1.34-.38-.266-.894-.4-1.543-.4H3.5v3.437zm12.037-1.657c.35.34.856.51 1.517.51.47 0 .877-.117 1.218-.353.34-.236.55-.486.63-.75h2.53c-.404 1.26-1.02 2.155-1.85 2.685-.83.53-1.833.795-3.01.795-.818 0-1.554-.13-2.208-.39-.654-.26-1.21-.628-1.667-1.105-.457-.477-.807-1.043-1.05-1.7-.242-.655-.364-1.374-.364-2.156 0-.76.127-1.468.38-2.123.255-.655.617-1.218 1.088-1.69.47-.472 1.03-.84 1.68-1.103.65-.264 1.366-.396 2.148-.396.88 0 1.65.17 2.31.51.66.34 1.21.8 1.65 1.38.44.577.758 1.24.953 1.99.197.748.274 1.535.23 2.36h-7.57c0 .742.188 1.314.54 1.72l-.015-.003zm2.917-4.83c-.28-.307-.71-.46-1.29-.46-.377 0-.692.063-.944.19-.252.126-.458.282-.618.465-.16.185-.272.38-.336.59-.063.21-.1.406-.11.59h3.85c-.1-.66-.27-1.07-.55-1.375zm-4.42-2.898h4.77v1.254h-4.77V7.095z"/></svg></a>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="return false;" data-aos="fade-left">
+      <div class="form-row">
+        <div class="form-group"><label for="name">姓名</label><input type="text" id="name" placeholder="請輸入您的姓名" /></div>
+        <div class="form-group"><label for="phone">手機</label><input type="tel" id="phone" placeholder="請輸入您的手機號碼" /></div>
+      </div>
+      <div class="form-group"><label for="email">電子信箱</label><input type="email" id="email" placeholder="請輸入您的電子信箱" /></div>
+      <div class="form-group"><label for="note">備註</label><textarea id="note" placeholder="請輸入備註內容"></textarea></div>
+      <button type="submit" class="btn btn-primary" style="align-self:flex-start;">送出訊息</button>
+    </form>
+  </div>
+</section>
+
+<footer><p>© 2025 Nelson. All rights reserved.</p></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/main.js"></script>
+<script>
+  // Sync tab with URL param
+  document.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search);
+    const service = params.get('service');
+    if (service) {
+      const tab = document.querySelector(`.service-tab[data-service="${service}"]`);
+      if (tab) tab.click();
+    }
+  });
+</script>
+</body>
+</html>

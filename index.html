@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nelson | UIUX Designer & Frontend Engineer</title>
+  <meta name="description" content="擁有 10 年經驗的 UIUX 設計師和前端工程師，把美學和程式結合，打造精美網頁。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="index.html" class="navbar-logo">Nelson</a>
+    <ul class="navbar-links">
+      <li><a href="service.html">服務項目</a></li>
+      <li><a href="project.html">專案作品</a></li>
+      <li><a href="blog.html">部落格</a></li>
+      <li><a href="#contact" class="navbar-cta">
+        <span class="btn btn-primary" style="padding:8px 20px;font-size:13px;">與我聯絡</span>
+      </a></li>
+    </ul>
+    <button class="hamburger" aria-label="開啟選單" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" role="dialog" aria-label="行動導覽">
+  <a href="service.html">服務項目</a>
+  <a href="project.html">專案作品</a>
+  <a href="blog.html">部落格</a>
+  <a href="#contact" class="mobile-cta btn btn-primary">與我聯絡</a>
+</div>
+
+<!-- Hero -->
+<section class="hero page-top">
+  <div class="hero-container">
+    <div class="hero-text" data-aos="fade-right">
+      <p class="hero-eyebrow">UIUX Designer & Frontend Engineer</p>
+      <h1 class="hero-heading">Hello I'm<span>Nelson</span></h1>
+      <p class="hero-desc">擁有 10 年經驗的 UIUX 設計師和前端工程師，把美學和程式結合，打造精美網頁。</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">與我聯絡</a>
+        <a href="project.html" class="btn btn-outline">探索作品</a>
+      </div>
+    </div>
+    <div class="hero-visual" data-aos="fade-left">
+      <img
+        src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/index/index_person.webp"
+        alt="Nelson" class="hero-person" />
+      <img
+        src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/index/index_decora_1.webp"
+        alt="" class="hero-decora hero-decora-1" aria-hidden="true" />
+      <img
+        src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/index/index_decora_2.webp"
+        alt="" class="hero-decora hero-decora-2" aria-hidden="true" />
+      <img
+        src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/index/index_decora_3.webp"
+        alt="" class="hero-decora hero-decora-3" aria-hidden="true" />
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="section">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <p class="section-eyebrow">SERVICES</p>
+      <h2 class="section-title">服務項目</h2>
+    </div>
+
+    <!-- Mobile Swiper -->
+    <div class="swiper-wrapper-mobile">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="service.html?service=graphic" class="service-card">
+              <div class="service-card-header">
+                <div class="service-card-meta">
+                  <p class="service-card-eyebrow">GRAPHIC</p>
+                  <h3 class="service-card-title">平面設計</h3>
+                </div>
+                <svg class="service-card-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="40" height="40" rx="8" fill="#F5B87B"/><path d="M12 28L20 12L28 28H12Z" fill="#24140B"/></svg>
+              </div>
+              <p class="service-card-desc">從品牌識別到視覺傳達，用專業設計精準傳遞核心價值</p>
+              <div class="service-card-footer">
+                <span class="btn-circle">
+                  <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="service.html?service=website" class="service-card">
+              <div class="service-card-header">
+                <div class="service-card-meta">
+                  <p class="service-card-eyebrow">WEBSITE</p>
+                  <h3 class="service-card-title">網頁設計</h3>
+                </div>
+                <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><rect x="8" y="12" width="24" height="16" rx="2" fill="#24140B"/><rect x="12" y="16" width="16" height="2" fill="#F5B87B"/><rect x="12" y="20" width="10" height="2" fill="#F5B87B"/></svg>
+              </div>
+              <p class="service-card-desc">美感易用並重，以 Figma 打造符合直覺的數位體驗</p>
+              <div class="service-card-footer">
+                <span class="btn-circle">
+                  <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="service.html?service=frontend" class="service-card">
+              <div class="service-card-header">
+                <div class="service-card-meta">
+                  <p class="service-card-eyebrow">FRONTEND</p>
+                  <h3 class="service-card-title">前端切版</h3>
+                </div>
+                <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><path d="M14 16l-6 4 6 4M26 16l6 4-6 4M22 13l-4 14" stroke="#24140B" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <p class="service-card-desc">精準轉譯設計稿細節，建構流暢穩定 RWD 響應式網頁</p>
+              <div class="service-card-footer">
+                <span class="btn-circle">
+                  <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="service.html?service=backend" class="service-card">
+              <div class="service-card-header">
+                <div class="service-card-meta">
+                  <p class="service-card-eyebrow">BACKEND</p>
+                  <h3 class="service-card-title">後端開發</h3>
+                </div>
+                <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><rect x="8" y="8" width="24" height="10" rx="2" fill="#24140B"/><rect x="8" y="22" width="24" height="10" rx="2" fill="#24140B"/><circle cx="12" cy="13" r="2" fill="#F5B87B"/><circle cx="12" cy="27" r="2" fill="#F5B87B"/></svg>
+              </div>
+              <p class="service-card-desc">佈署穩定系統架構，串接 API 並確保數據處理安全</p>
+              <div class="service-card-footer">
+                <span class="btn-circle">
+                  <svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Desktop Grid -->
+      <div class="static-grid service-grid">
+        <a href="service.html?service=graphic" class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">GRAPHIC</p>
+              <h3 class="service-card-title">平面設計</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><path d="M12 28L20 12L28 28H12Z" fill="#24140B"/></svg>
+          </div>
+          <p class="service-card-desc">從品牌識別到視覺傳達，用專業設計精準傳遞核心價值</p>
+          <div class="service-card-footer">
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a href="service.html?service=website" class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">WEBSITE</p>
+              <h3 class="service-card-title">網頁設計</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><rect x="8" y="12" width="24" height="16" rx="2" fill="#24140B"/><rect x="12" y="16" width="16" height="2" fill="#F5B87B"/><rect x="12" y="20" width="10" height="2" fill="#F5B87B"/></svg>
+          </div>
+          <p class="service-card-desc">美感易用並重，以 Figma 打造符合直覺的數位體驗</p>
+          <div class="service-card-footer">
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a href="service.html?service=frontend" class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">FRONTEND</p>
+              <h3 class="service-card-title">前端切版</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><path d="M14 16l-6 4 6 4M26 16l6 4-6 4M22 13l-4 14" stroke="#24140B" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <p class="service-card-desc">精準轉譯設計稿細節，建構流暢穩定 RWD 響應式網頁</p>
+          <div class="service-card-footer">
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+        <a href="service.html?service=backend" class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-card-header">
+            <div class="service-card-meta">
+              <p class="service-card-eyebrow">BACKEND</p>
+              <h3 class="service-card-title">後端開發</h3>
+            </div>
+            <svg class="service-card-icon" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="8" fill="#F5B87B"/><rect x="8" y="8" width="24" height="10" rx="2" fill="#24140B"/><rect x="8" y="22" width="24" height="10" rx="2" fill="#24140B"/><circle cx="12" cy="13" r="2" fill="#F5B87B"/><circle cx="12" cy="27" r="2" fill="#F5B87B"/></svg>
+          </div>
+          <p class="service-card-desc">佈署穩定系統架構，串接 API 並確保數據處理安全</p>
+          <div class="service-card-footer">
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section section-light">
+  <div class="container">
+    <div class="section-header" style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;" data-aos="fade-up">
+      <div>
+        <p class="section-eyebrow">WORKS</p>
+        <h2 class="section-title">專案作品</h2>
+      </div>
+      <a href="project.html" class="btn btn-dark">探索更多</a>
+    </div>
+    <div class="project-grid" id="home-project-grid">
+      <div class="project-card" data-project-id="1" data-aos="fade-up" data-aos-delay="0">
+        <picture>
+          <source media="(min-width:768px)" srcset="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/project/desktop/project_1.webp" />
+          <img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/project/mobile/project_1.webp" alt="多肉植物電商" class="project-card-img" />
+        </picture>
+        <div class="project-card-body">
+          <div class="project-card-tags"><span class="tag">平面設計</span><span class="tag">網頁設計</span></div>
+          <p class="project-card-date">Oct 16, 2025</p>
+          <h3 class="project-card-title">品牌視覺與電商整合，多肉植物品牌電商建置</h3>
+          <p class="project-card-desc">從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗</p>
+          <div class="project-card-footer">
+            <span class="project-card-link">前往專案 <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" data-project-id="2" data-aos="fade-up" data-aos-delay="100">
+        <picture>
+          <source media="(min-width:768px)" srcset="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/project/desktop/project_2.webp" />
+          <img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/project/mobile/project_2.webp" alt="財務視覺化軟體" class="project-card-img" />
+        </picture>
+        <div class="project-card-body">
+          <div class="project-card-tags"><span class="tag">平面設計</span><span class="tag">網頁設計</span><span class="tag">前端切版</span></div>
+          <p class="project-card-date">Oct 16, 2025</p>
+          <h3 class="project-card-title">數位產品 UI/UX 設計，個人化財務視覺化軟體</h3>
+          <p class="project-card-desc">運用數據視覺化邏輯，將複雜的財務數據轉化為直覺的操作介面</p>
+          <div class="project-card-footer">
+            <span class="project-card-link">前往專案 <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card" data-project-id="3" data-aos="fade-up" data-aos-delay="200">
+        <picture>
+          <source media="(min-width:768px)" srcset="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/project/desktop/project_3.webp" />
+          <img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/project/mobile/project_3.webp" alt="法式甜點品牌" class="project-card-img" />
+        </picture>
+        <div class="project-card-body">
+          <div class="project-card-tags"><span class="tag">前端切版</span><span class="tag">後端開發</span></div>
+          <p class="project-card-date">Oct 16, 2025</p>
+          <h3 class="project-card-title">品牌識別與包裝設計，法式甜點品牌視覺重塑</h3>
+          <p class="project-card-desc">以溫暖、輕盈的視覺語言，精準定位高質感甜點市場的品牌形象</p>
+          <div class="project-card-footer">
+            <span class="project-card-link">前往專案 <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span class="btn-circle"><svg viewBox="0 0 20 20" fill="none"><path d="M4 10h12M10 4l6 6-6 6" stroke="#24140B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog -->
+<section class="section">
+  <div class="container">
+    <div class="section-header" style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:16px;" data-aos="fade-up">
+      <div>
+        <p class="section-eyebrow">BLOG</p>
+        <h2 class="section-title">部落格</h2>
+      </div>
+      <a href="blog.html" class="btn btn-dark">閱讀更多</a>
+    </div>
+
+    <div class="swiper-wrapper-mobile">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="blog-card">
+              <div class="blog-card-img-wrap"><img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/blog/blog_1.webp" alt="微互動設計" class="blog-card-img" /></div>
+              <div class="blog-card-body">
+                <div class="blog-card-tags"><span class="tag">UIUX 設計</span></div>
+                <div class="blog-card-meta"><time>2022-09-20</time><span>👁 98</span><span>↗ 3</span></div>
+                <h3 class="blog-card-title">UI/UX 設計中的微互動：讓諮詢網站更具溫度與說服力</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-card">
+              <div class="blog-card-img-wrap"><img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/blog/blog_2.webp" alt="品牌識別" class="blog-card-img" /></div>
+              <div class="blog-card-body">
+                <div class="blog-card-tags"><span class="tag">品牌設計</span></div>
+                <div class="blog-card-meta"><time>2022-10-05</time><span>👁 120</span><span>↗ 5</span></div>
+                <h3 class="blog-card-title">從品牌識別到數位體驗：一致性設計的關鍵策略</h3>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="blog-card">
+              <div class="blog-card-img-wrap"><img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/blog/blog_4.webp" alt="AI設計" class="blog-card-img" /></div>
+              <div class="blog-card-body">
+                <div class="blog-card-tags"><span class="tag">AI 趨勢應用</span></div>
+                <div class="blog-card-meta"><time>2022-10-13</time><span>👁 110</span><span>↗ 2</span></div>
+                <h3 class="blog-card-title">當 AI 遇上介面設計：資深設計師如何利用生成式工具重塑工作流</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Desktop Grid -->
+      <div class="static-grid blog-grid">
+        <div class="blog-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="blog-card-img-wrap"><img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/blog/blog_1.webp" alt="微互動設計" class="blog-card-img" /></div>
+          <div class="blog-card-body">
+            <div class="blog-card-tags"><span class="tag">UIUX 設計</span></div>
+            <div class="blog-card-meta"><time>2022-09-20</time><span>👁 98</span><span>↗ 3</span></div>
+            <h3 class="blog-card-title">UI/UX 設計中的微互動：讓諮詢網站更具溫度與說服力</h3>
+          </div>
+        </div>
+        <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="blog-card-img-wrap"><img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/blog/blog_2.webp" alt="品牌識別" class="blog-card-img" /></div>
+          <div class="blog-card-body">
+            <div class="blog-card-tags"><span class="tag">品牌設計</span></div>
+            <div class="blog-card-meta"><time>2022-10-05</time><span>👁 120</span><span>↗ 5</span></div>
+            <h3 class="blog-card-title">從品牌識別到數位體驗：一致性設計的關鍵策略</h3>
+          </div>
+        </div>
+        <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="blog-card-img-wrap"><img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/blog/blog_4.webp" alt="AI設計" class="blog-card-img" /></div>
+          <div class="blog-card-body">
+            <div class="blog-card-tags"><span class="tag">AI 趨勢應用</span></div>
+            <div class="blog-card-meta"><time>2022-10-13</time><span>👁 110</span><span>↗ 2</span></div>
+            <h3 class="blog-card-title">當 AI 遇上介面設計：資深設計師如何利用生成式工具重塑工作流</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Subscription -->
+<section class="subscription">
+  <img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/common/mobile/subscription_bg.webp" alt="" class="subscription-bg" aria-hidden="true" />
+  <div class="subscription-overlay"></div>
+  <div class="subscription-inner">
+    <img src="https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public/img/common/subscription.webp" alt="訂閱電子報" class="subscription-img" />
+    <div class="subscription-content" data-aos="fade-up">
+      <p class="subscription-eyebrow">NEWSLETTER</p>
+      <h2 class="subscription-title">SUBSCRIPTION</h2>
+      <p class="subscription-desc">訂閱電子報，與設計師和工程師一起探索美學與程式的交界，掌握 AI 工具最新應用趨勢。</p>
+      <form class="subscription-form" onsubmit="return false;">
+        <label for="sub-email" class="hidden">電子信箱</label>
+        <input type="email" id="sub-email" placeholder="電子信箱" autocomplete="email" />
+        <button type="submit">送出</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="contact-text" data-aos="fade-right">
+      <p class="section-eyebrow">CONTACT</p>
+      <h2 class="section-title light">與我聯絡</h2>
+      <div class="contact-email">
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M3 5h14l-7 7-7-7z" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/><rect x="3" y="5" width="14" height="11" rx="1" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/></svg>
+        service@hexschool.com
+      </div>
+      <div class="contact-socials">
+        <a href="#" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Behance">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.938 4.503c.702 0 1.34.06 1.92.188.577.13 1.07.33 1.477.602.406.272.72.63.94 1.064.22.437.33.95.33 1.538 0 .658-.152 1.213-.456 1.656-.304.444-.734.808-1.29 1.092.764.222 1.33.608 1.7 1.157.37.548.556 1.195.556 1.938 0 .654-.13 1.22-.4 1.695-.27.475-.64.87-1.11 1.182-.47.314-1.01.54-1.62.68-.61.14-1.24.21-1.9.21H0V4.5h6.938v.003zM3.5 10.5h2.938c.6 0 1.09-.14 1.47-.42.38-.28.57-.69.57-1.23 0-.3-.055-.556-.165-.764-.11-.21-.26-.38-.45-.51-.19-.13-.414-.22-.67-.27-.255-.05-.526-.076-.814-.076H3.5v3.27zm0 5.78h3.15c.3 0 .584-.032.85-.097.267-.063.502-.163.703-.3.2-.135.36-.31.48-.52.12-.21.18-.47.18-.78 0-.626-.19-1.073-.57-1.34-.38-.266-.894-.4-1.543-.4H3.5v3.437zm12.037-1.657c.35.34.856.51 1.517.51.47 0 .877-.117 1.218-.353.34-.236.55-.486.63-.75h2.53c-.404 1.26-1.02 2.155-1.85 2.685-.83.53-1.833.795-3.01.795-.818 0-1.554-.13-2.208-.39-.654-.26-1.21-.628-1.667-1.105-.457-.477-.807-1.043-1.05-1.7-.242-.655-.364-1.374-.364-2.156 0-.76.127-1.468.38-2.123.255-.655.617-1.218 1.088-1.69.47-.472 1.03-.84 1.68-1.103.65-.264 1.366-.396 2.148-.396.88 0 1.65.17 2.31.51.66.34 1.21.8 1.65 1.38.44.577.758 1.24.953 1.99.197.748.274 1.535.23 2.36h-7.57c0 .742.188 1.314.54 1.72l-.015-.003zm2.917-4.83c-.28-.307-.71-.46-1.29-.46-.377 0-.692.063-.944.19-.252.126-.458.282-.618.465-.16.185-.272.38-.336.59-.063.21-.1.406-.11.59h3.85c-.1-.66-.27-1.07-.55-1.375zm-4.42-2.898h4.77v1.254h-4.77V7.095z"/></svg>
+        </a>
+      </div>
+    </div>
+    <form class="contact-form" onsubmit="return false;" data-aos="fade-left">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">姓名</label>
+          <input type="text" id="name" placeholder="請輸入您的姓名" />
+        </div>
+        <div class="form-group">
+          <label for="phone">手機</label>
+          <input type="tel" id="phone" placeholder="請輸入您的手機號碼" />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">電子信箱</label>
+        <input type="email" id="email" placeholder="請輸入您的電子信箱" />
+      </div>
+      <div class="form-group">
+        <label for="note">備註</label>
+        <textarea id="note" placeholder="請輸入備註內容"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="align-self:flex-start;">送出訊息</button>
+    </form>
+  </div>
+</section>
+
+<!-- Project Modal -->
+<div class="modal-overlay" role="dialog" aria-modal="true" aria-label="專案詳情">
+  <div class="modal">
+    <div class="modal-header">
+      <img src="" alt="" class="modal-img" />
+      <button class="modal-close" aria-label="關閉">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="modal-tags"></div>
+      <p class="modal-date"></p>
+      <h3 class="modal-title"></h3>
+      <p class="modal-desc"></p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Nelson. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
