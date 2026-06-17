@@ -911,6 +911,36 @@ footer p {
 .flex-center { display: flex; align-items: center; justify-content: center; }
 .hidden { display: none !important; }
 
+/* ===== Pagination ===== */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+.page-btn {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1.5px solid var(--primary-100);
+  background: transparent;
+  color: var(--neutral);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+}
+.page-btn:hover { background: var(--primary-50); border-color: var(--primary-500); }
+.page-btn.active { background: var(--primary); color: var(--neutral-0); border-color: var(--primary); }
+.page-btn.dots { cursor: default; border-color: transparent; }
+.page-btn.dots:hover { background: transparent; border-color: transparent; }
+
 /* ===== No-results ===== */
 .no-results {
   text-align: center;
