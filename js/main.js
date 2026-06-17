@@ -1,5 +1,5 @@
-/* ===== Image base URL ===== */
-const IMG = 'https://raw.githubusercontent.com/happyloa/Hex2026-mission2/main/public';
+﻿/* ===== Image base URL ===== */
+const IMG = 'https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2026-web-camp';
 
 /* ===== AOS Init ===== */
 document.addEventListener('DOMContentLoaded', () => {
@@ -113,7 +113,7 @@ const projectData = [
     desc: '從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗。整合線上購物流程，提升用戶購物直覺性與品牌辨識度，並以自然色系搭配手繪插圖強化品牌個性。',
     tags: ['平面設計', '網頁設計'],
     date: 'Oct 16, 2025',
-    img: `${IMG}/img/project/desktop/project_1.webp`,
+    img: `${IMG}/project_1.png`,
   },
   {
     id: 2,
@@ -121,7 +121,7 @@ const projectData = [
     desc: '運用數據視覺化邏輯，將複雜的財務數據轉化為直覺的操作介面。以使用者為中心的設計流程，結合互動圖表與個人化儀表板，讓財務管理更加清晰易懂。',
     tags: ['平面設計', '網頁設計', '前端切版'],
     date: 'Oct 16, 2025',
-    img: `${IMG}/img/project/desktop/project_2.webp`,
+    img: `${IMG}/project_2.png`,
   },
   {
     id: 3,
@@ -129,7 +129,7 @@ const projectData = [
     desc: '以溫暖、輕盈的視覺語言，精準定位高質感甜點市場的品牌形象。從 Logo 設計、包裝視覺到社群素材，建立一致且具記憶點的品牌識別系統。',
     tags: ['前端切版', '後端開發'],
     date: 'Oct 16, 2025',
-    img: `${IMG}/img/project/desktop/project_3.webp`,
+    img: `${IMG}/project_3.png`,
   },
   {
     id: 4,
@@ -137,7 +137,7 @@ const projectData = [
     desc: '串接第三方 API 並規劃穩定的後端架構，建構安全的資產管理後台。以安全性與易用性為核心，設計清晰的資料流程與操作介面，服務金融機構與終端用戶。',
     tags: ['網頁設計', '前端切版', '後端開發'],
     date: 'Oct 16, 2025',
-    img: `${IMG}/img/project/desktop/project_4.webp`,
+    img: `${IMG}/project_4.png`,
   },
 ];
 
@@ -198,3 +198,4 @@ function initSwipers() {
     el._swiper = swiper;
   });
 }
+
